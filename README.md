@@ -4,7 +4,7 @@ In this repo is stored all of the material found, created and suggested for our 
 Every README file provide informations about the folder contents. 
 
 ------------
-## Msg di suggerimento da Ermidoro
+## Msg di suggerimento da Michele Piffari
 Allora l'approccio che mi viene da consigliarvi (nonchè quello che ho seguito nella mia tesi) è quello di utilizzare ROS.
 Tramite il controllore del manipolatore (IRC5 Compact) si va a creare una sorta di server che espone una socket
 per ricevere i comandi dal mondo esterno: per questa fase è necessario utilizzare il software proprietario di ABB (che è 
@@ -25,5 +25,4 @@ alcune nuove funzionalità per rendere questo possibile.
 
 
 Resto a disposizione,
-
 Michele
