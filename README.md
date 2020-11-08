@@ -26,3 +26,4 @@ alcune nuove funzionalità per rendere questo possibile.
 
 Resto a disposizione,
 Michele
+m.piffari@studenti.unibg.it
