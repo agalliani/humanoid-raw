@@ -1,5 +1,5 @@
 ## Documentazione preliminare
-##### Setup, studio e controllo del robot industriale ABB IRB120.pdf
+##### `Setup, studio e controllo del robot industriale ABB IRB120.pdf`
 
 Tesi di Laurea triennale di Michele Piffari, presso il laboratorio del CAL(Control systems and Automation Laboratory) dell’Università degli studi di Bergamo.
 
