@@ -33,5 +33,6 @@ Breve descrizione contenuto:
 - Funzionamento libreria piattaforma inerziale
   https://learn.adafruit.com/adafruit-lsm9ds0-accelerometer-gyro-magnetometer-9-dof-breakouts/arduino-code
 
-
+- Spiegazione supplementare quaternioni
+  http://www.chrobotics.com/library/understanding-quaternions
 
