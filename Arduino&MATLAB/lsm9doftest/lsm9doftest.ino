@@ -37,8 +37,8 @@ void setup()
 #ifndef ESP8266
   while (!Serial);     // will pause Zero, Leonardo, etc until serial console opens
 #endif
-  Serial.begin(9600);
-  Serial.println("LSM raw read demo");
+  Serial.begin(115200);
+  Serial.println("Inizio");
   
   // Try to initialise and warn if we couldn't detect the chip
   if (!lsm.begin())
@@ -46,26 +46,26 @@ void setup()
     Serial.println("Oops ... unable to initialize the LSM9DS0. Check your wiring!");
     while (1);
   }
-  Serial.println("Found LSM9DS0 9DOF");
-  Serial.println("");
-  Serial.println("");
-  Serial.println("Setting up LSM9DS0 9DOF");
+
   setupSensor();
   delay(1);
 }
 
 void loop() 
 {
+ 
   lsm.read();
+   delay(200);
   Serial.print("Accelerometro: \n ");
   Serial.print("X: "); Serial.print((int)lsm.accelData.x); Serial.print(" \n ");
   Serial.print("Y: "); Serial.print((int)lsm.accelData.y);       Serial.print(" \n ");
   Serial.print("Z: "); Serial.println((int)lsm.accelData.z);     Serial.print(" \n ");
-  
+   delay(200);
   Serial.print("Magnetometro: \n ");
   Serial.print("X: "); Serial.print((int)lsm.magData.x);     Serial.print(" \n ");
   Serial.print("Y: "); Serial.print((int)lsm.magData.y);         Serial.print(" \n ");
   Serial.print("Z: "); Serial.println((int)lsm.magData.z);       Serial.print(" \n ");
+   delay(200);
   Serial.print("Giroscopio:\n  ");
   
   Serial.print("X: "); Serial.print((int)lsm.gyroData.x);   Serial.print("\n  ");
